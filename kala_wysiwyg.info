@@ -1,0 +1,14 @@
+name = Kalamuna WYSIWYG
+description = the WYSIWYG experience
+core = 7.x
+package = Kalamuna
+php = 5.2.4
+version = 7.x-1.0-alpha1
+project = kala_wysiwyg
+dependencies[] = caption_filter
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = media
+features[features_api][] = api:2
+features[filter][] = kala_fullhtml_text
+features[user_permission][] = use text format kala_fullhtml_text
